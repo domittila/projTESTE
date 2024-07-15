@@ -1,0 +1,51 @@
+# Inicialização das variáveis para contagem
+votos_candidato1 = 0
+votos_candidato2 = 0
+votos_candidato3 = 0
+votos_candidato4 = 0
+votos_nulos = 0
+votos_brancos = 0
+total_votos = 0
+
+# Leitura e processamento dos votos
+while True:
+    voto = int(input("Digite o voto (1 a 4 para candidatos, 5 para Nulo, 6 para Branco, 0 para encerrar): "))
+    
+    if voto == 0:
+        break
+    
+    if voto == 1:
+        votos_candidato1 += 1
+    elif voto == 2:
+        votos_candidato2 += 1
+    elif voto == 3:
+        votos_candidato3 += 1
+    elif voto == 4:
+        votos_candidato4 += 1
+    elif voto == 5:
+        votos_nulos += 1
+    elif voto == 6:
+        votos_brancos += 1
+    else:
+        print("Voto inválido. Informe um voto de 1 a 6.")
+
+    total_votos += 1
+
+# Cálculo das percentagens
+if total_votos > 0:
+    percentual_nulos = (votos_nulos / total_votos) * 100
+    percentual_brancos = (votos_brancos / total_votos) * 100
+else:
+    percentual_nulos = 0
+    percentual_brancos = 0
+
+# Impressão dos resultados
+print("\nResultados da Eleição:")
+print(f"Total de votos para o Candidato 1: {votos_candidato1}")
+print(f"Total de votos para o Candidato 2: {votos_candidato2}")
+print(f"Total de votos para o Candidato 3: {votos_candidato3}")
+print(f"Total de votos para o Candidato 4: {votos_candidato4}")
+print(f"Total de votos nulos: {votos_nulos}")
+print(f"Total de votos em branco: {votos_brancos}")
+print(f"Percentagem de votos nulos sobre o total de votos: {percentual_nulos:.2f}%")
+print(f"Percentagem de votos em branco sobre o total de votos: {percentual_brancos:.2f}%")

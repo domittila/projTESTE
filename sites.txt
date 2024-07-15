@@ -1,0 +1,15 @@
+Trello: Uma das ferramentas mais populares e amplamente utilizadas para gestão de projetos com Kanban. Oferece uma versão gratuita com recursos básicos, suficiente para muitas equipes pequenas.
+
+Asana: Embora tenha uma versão paga com mais recursos, a versão gratuita da Asana também inclui funcionalidades Kanban para gerenciamento de projetos.
+
+Microsoft Planner: Integrado ao Office 365, o Planner oferece um quadro Kanban simples e eficaz para equipes que já utilizam o ecossistema Microsoft.
+
+ClickUp: Oferece uma versão gratuita com recursos robustos, incluindo quadros Kanban e diversas outras funcionalidades de gerenciamento de projetos.
+
+KanbanFlow: Uma ferramenta dedicada ao Kanban, com versão gratuita que permite a gestão de um número ilimitado de quadros e tarefas.
+
+MeisterTask: Oferece uma versão gratuita com funcionalidades Kanban para equipes pequenas e projetos simples.
+
+Zenkit: Permite criar quadros Kanban e oferece uma versão gratuita com um número limitado de colaboradores e recursos.
+
+Taiga: Uma plataforma de gerenciamento de projetos open-source que inclui suporte ao método Kanban em sua versão gratuita.
